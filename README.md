@@ -6,6 +6,7 @@
 The principal components analysis will be run on plink
 Make sure all the files, including the plink execution file is in the same directory. 
 The commmand below is the general command to run the PCA. Additional flags might be needed depending on the formatting of your files. i.e., if your data is not organized on chromosomes then you would add the --allow-extra-chr etc. 
+
 Load most current version of PLINK on the terminal and run the following command on your file. 
 ```
 ./plink --vcf --myfile.vcf --pca
