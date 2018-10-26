@@ -1,4 +1,4 @@
-# Admixture-PCAs-and-Ancestry
+# Ancestry estimation - PCAs and Barplots
 
 ## This repository contains several scripts to visualize and estimate ancestry. Before moving to R to plot and visualize you must first obatin the relevant files from PLINK and ADMIXTURE
 
