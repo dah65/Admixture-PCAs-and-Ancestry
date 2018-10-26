@@ -15,7 +15,7 @@
 ### ADMIXTURE
 #### The ancestry proportions will be estimated by the ADMIXTURE software. The command to estimate admixture is 
 ```
-./Admixture myfile.bed 2
+./admixture myfile.bed 2
 ```
 #### the number at the end of the line represents the number of ancestral populations you would like to use to run the analysis. You will recieve two output files myfile.P and myfile.Q. We use load the Q file into R to plot the ancestry proportions. 
 
