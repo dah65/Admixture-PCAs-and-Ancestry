@@ -2,7 +2,7 @@
 
 ## This repository contains several scripts to visualize and estimate ancestry. Before moving to R to plot and visualize you must first obatin the relevant files from PLINK and ADMIXTURE
 
-### Plink
+### PLINK
 #### The principal components analysis will be run on plink
 #### make sure all the files, including the plink execution file is in the same directory
 #### The commmand below is the general command to run the PCA. Additional flags might be needed depending on the formatting of your files. i.e., if your data is not organized on chromosomes then you would add the --allow-extra-chr
@@ -11,3 +11,6 @@
 ./plink --vcf --myfile.vcf --pca
 ```
 #### You will get two output files: myfile.eigenvec and myfile.eigenval we will use the .eigenvec file to plot the principal components in R.
+
+### ADMIXTURE
+#### The ancestry proportions will be estimated by the ADMIXTURE software 
